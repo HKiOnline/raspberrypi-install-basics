@@ -15,5 +15,8 @@ if [[ "$OSTYPE" != "linux-gnu"* ]]; then
 fi
 
 
-#"$basedir/install_upgrades.sh"
+echo "Updating repositories and upgrading packages"
+"$basedir/install_upgrades.sh"
+
+echo "Installing Docker and Docker Compose"
 "$basedir/install_docker.sh"
