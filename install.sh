@@ -16,8 +16,10 @@ fi
 
 
 echo "Updating repositories and upgrading packages"
-curl -fsSL https://raw.githubusercontent.com/HKiOnline/raspberrypi-install-basics/main/install_upgrades.sh | sh
+curl -fsSL https://raw.githubusercontent.com/HKiOnline/raspberrypi-install-basics/main/install_upgrades.sh | bash
 
+echo "Install essential utilities"
+curl -fsSL https://raw.githubusercontent.com/HKiOnline/raspberrypi-install-basics/main/install_utilities.sh" | bash
 
 echo "Installing Docker and Docker Compose"
-curl -fsSL https://raw.githubusercontent.com/HKiOnline/raspberrypi-install-basics/main/install_docker.sh | sh
+curl -fsSL https://raw.githubusercontent.com/HKiOnline/raspberrypi-install-basics/main/install_docker.sh | bash
