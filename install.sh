@@ -16,10 +16,8 @@ fi
 
 
 echo "Updating repositories and upgrading packages"
-#"$basedir/install_upgrades.sh"
 curl -fsSL https://raw.githubusercontent.com/HKiOnline/raspberrypi-install-basics/main/install_upgrades.sh | sh
 
 
 echo "Installing Docker and Docker Compose"
-#"$basedir/install_docker.sh"
 curl -fsSL https://raw.githubusercontent.com/HKiOnline/raspberrypi-install-basics/main/install_docker.sh | sh
