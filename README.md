@@ -1,8 +1,8 @@
-# raspberrypi-install-basics
+# server-install-basics
 
-Install the basic stuff on a new Raspberry Pi.
+Install the basic stuff to a new Debian or Raspberry Pi server.
 
 Run:
 ```
-curl -fsSL https://raw.githubusercontent.com/HKiOnline/raspberrypi-install-basics/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/HKiOnline/server-install-basics/main/install.sh | sh
 ```
